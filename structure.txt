@@ -1,0 +1,21 @@
+real_estate_predictor/
+│
+├── config.py              # Configuration parameters
+├── data/
+│   ├── __init__.py
+│   ├── loader.py          # Data loading functions
+│   ├── preprocessor.py    # Data cleaning and preprocessing
+│   └── feature_engineer.py # Feature engineering
+│
+├── models/
+│   ├── __init__.py
+│   ├── model_builder.py   # Model creation and selection
+│   ├── hypertuner.py      # Hyperparameter tuning
+│   └── evaluator.py       # Model evaluation
+│
+├── utils/
+│   ├── __init__.py
+│   └── helpers.py         # Helper functions
+│
+├── train.py               # Main training script
+└── predict.py             # Prediction script
