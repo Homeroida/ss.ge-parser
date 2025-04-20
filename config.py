@@ -119,7 +119,8 @@ DEFAULT_VALUES = {
     'DistrictPriceStd': 500,
     'SubdistrictAvgPrice': 1700,
     'SubdistrictMedianPrice': 1550,
-    'SubdistrictPriceStd': 500
+    'SubdistrictPriceStd': 500,
+    'LowPriceProperty': 0
 }
 
 # Ensure model directory exists
