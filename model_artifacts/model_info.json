@@ -1,0 +1,44 @@
+{
+    "model_type": "RandomForestRegressor",
+    "trained_date": "2025-04-20",
+    "numerical_features": [
+        "Area_SqM",
+        "Bedrooms",
+        "TotalRooms",
+        "Floor",
+        "TotalFloors",
+        "ListingYear",
+        "ListingMonth",
+        "ListingAge",
+        "RoomDensity",
+        "BedroomRatio",
+        "FloorRatio",
+        "IsTopFloor",
+        "IsGroundFloor",
+        "IsPremiumArea",
+        "DistrictID",
+        "SubdistrictID",
+        "StreetID",
+        "DayOfWeek",
+        "DayOfMonth",
+        "IsWeekend",
+        "LogArea",
+        "DistrictAvgPrice",
+        "DistrictMedianPrice",
+        "DistrictPriceStd",
+        "SubdistrictAvgPrice",
+        "SubdistrictMedianPrice",
+        "SubdistrictPriceStd",
+        "LowPriceProperty"
+    ],
+    "categorical_features": [
+        "ListingSeason"
+    ],
+    "performance": {
+        "rmse": 17985.54818730614,
+        "mae": 7022.671695270139,
+        "r2": 0.9621390208261271,
+        "mape": 14.708137207554545
+    },
+    "description": "Real estate price prediction model for Georgian properties"
+}
